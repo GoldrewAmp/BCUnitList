@@ -15,7 +15,7 @@ A site for tracking the units and upgrades obtained in the mobile game The Battl
 - Customize lists and behaviors via the settings
   - Wow, very exciting
 
-Check it out at [https://andrewsalls.github.io/BCUnitList/](https://andrewsalls.github.io/BCUnitList/)
+Check it out at [https://goldrewamp.github.io/BCUnitList/](https://goldrewamp.github.io/BCUnitList/)
 
 ## Updating data
 
