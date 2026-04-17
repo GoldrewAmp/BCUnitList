@@ -1,7 +1,7 @@
 ID,Rarity,InEN,NF,EF,TF,UF,LevelCapFormat,OrbCount,Talents,UltraTalents
 200,SR,Y,Metal Cat,Metal Macho,,,Metal,0,,
 201,RR,Y,Drumcorps Cat,Banner Cat,Mochi Cat,,,0,,
-202,EX,N,Baozi Cat,Big Baozi,,,Plus25,0,,
+202,EX,Y,Baozi Cat,Big Baozi,,,Plus30,0,,
 203,UR,Y,Kachi-Kachi,Fire Squad Kachiyama,Kachiyama Assault Brigade,,UR,2,Slow_Resist10-Defense10-Attack10-Cost_Down10-Recover_Speed10,Curse_Immune1-Strengthen10-Slow10
 204,EX,N,Felyne,Felyne & Melynx,,,,0,,
 205,EX,N,Sheria - Kirin,Sheria - KirinX,,,MonsterHunter,0,,

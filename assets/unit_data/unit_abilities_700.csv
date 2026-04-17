@@ -28,6 +28,7 @@ ID,Form,Cost,Health,Damage,Range,KBCount,Speed,Cooldown,HasArea,Traits,Abilities
 711,1,4500,1200,635,640,1,4,333.33,T,All,Freeze-Multi_Hit-Omnistrike
 712,0,4500,500,150,140,5,4,33.33,F,,
 712,1,4500,1200,3000,710,1,4,333.33,T,All,Knockback-Mini_Surge
+712,2,4500,1800,3000,710,1,4,333.33,T,All,Colossus_Slayer-Knockback-Mini_Surge-Surge_Immune
 713,0,180,100,2,100,1,5,6.67,F,,
 713,1,180,100,2,100,1,5,6.67,F,Zombie,Slow
 713,2,570,610,129,300,3,10,18,F,Zombie,Behemoth_Slayer-Slow-Soulstrike-Zombie_Killer

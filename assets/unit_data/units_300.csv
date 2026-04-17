@@ -29,7 +29,7 @@ ID,Rarity,InEN,NF,EF,TF,UF,LevelCapFormat,OrbCount,Talents,UltraTalents
 327,SR,Y,Belial,Reckless Belial,,,GachaSR,0,,
 328,EX,Y,Happy 100,Heartful Happy 100,,,,0,,
 329,RR,Y,Eggy Cat,Easter Cat,Easter Egg Cat,,,0,,
-330,UR,Y,Springtime Kenshin,Full-Bloom Kenshin,Spring Breeze Kenshin,,UR,0,,
+330,UR,Y,Springtime Kenshin,Full-Bloom Kenshin,Spring Breeze Kenshin,,UR,1,Target_Traitless1-Wave_Immune1-Curse_Resist10-Defense10-Attack10,
 331,UR,Y,Bunny & Canard,Disciple Psychoduck,Malevolent Mad-Duck,,UR,0,,
 332,SR,Y,Easter Neneko,Hoppity Neneko,Blossoming Neneko,,GachaSR,0,,
 333,UR,Y,Shadow Gao,Diabolic Gao,,,UR,0,,
@@ -37,7 +37,7 @@ ID,Rarity,InEN,NF,EF,TF,UF,LevelCapFormat,OrbCount,Talents,UltraTalents
 335,UR,Y,Sea Maiden Ruri,Sea Mistress Ruri,Mer-Queen Ruri,,UR,2,Target_Relic1-Curse_Immune1-Slow_Resist10-Defense10-Attack10,Dodge10-Move_Speed10-Freeze_Immune1
 336,UR,Y,Queen Reika,Pharoah Reika,Eternal Reika,,UR,1,Target_Relic1-Curse_Immune1-Slow_Resist10-Defense10-Attack10,
 337,UR,Y,HMS Princess,HMS Princess CC,HMS Princess II CC,,UR,1,Survive10-Weaken_Immune1-Wave_Immune1-Defense10-Attack10,
-338,UR,Y,Imagawa Yoshimoto,Wargod Yoshimoto,Immortal Yoshimoto,,UR,1,Target_Aku1-Survive10-Freeze_Resist10-Defense10-Attack10,
+338,UR,Y,Imagawa Yoshimoto,Wargod Yoshimoto,Immortal Yoshimoto,,UR,2,Target_Aku1-Survive10-Freeze_Resist10-Defense10-Attack10,Counter_Surge1-Surge_Resist10-Cost_Down10
 339,EX,Y,Iron Wall Cat,,,,Summon,0,,
 340,RR,Y,Redhead Yuki Cat,Redhead Lovely Yuki Cat,Redhead Muscled Yuki Cat,,,0,,
 341,UR,Y,Lost World Yuki,Lost World Yuki & Cat,Lost World Catgirl Yuki,,UR,1,Target_Aku1-Surge_Resist10-Warp_Immune1-Defense10-Attack10,
@@ -50,7 +50,7 @@ ID,Rarity,InEN,NF,EF,TF,UF,LevelCapFormat,OrbCount,Talents,UltraTalents
 348,RR,N,Gudetama Plate,Gudetama Bacon Plate,,,GachaRare,0,,
 349,SR,N,Gudegude Pudding,Gudegude à la mode,,,GachaSR,0,,
 350,UR,N,Nisetama Army,Nisetama Cat Army,,,UR,0,,
-351,UR,Y,Twinstars,"Twinstars, type Φ",Divine Twinstars,,UR,1,Curse_Immune1-Slow10-Wave_Resist10-Defense10-Attack10,
+351,UR,Y,Twinstars,"Twinstars, type Φ",Divine Twinstars,,UR,1,Curse_Immune1-Slow10-Wave_Resist10-Defense10-Attack10,Savage_Blow10-Slow_Immune1-Cost_Down10
 352,EX,Y,Hermit Cat,Grandmaster Cat,Masked Grandmaster Cat,,,0,,
 353,RR,N,Cat Slave Chocolate,Cat and Chocolate,Chocolate Cat,,,0,,
 354,UR,Y,Seashore Kai,"Seashore Kai, type μ",,,UR,0,,

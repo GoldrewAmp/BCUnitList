@@ -48,7 +48,7 @@ ID,LevelFormat,TrueXPCost,TrueMaterial1,TrueMaterialCount1,TrueMaterial2,TrueMat
 446,,500000,epic_seed,1,yellow_seed,10,,,,,,,,,,,,,,,,,,,
 447,,500000,epic_seed,1,blue_seed,10,,,,,,,,,,,,,,,,,,,
 448,,3000000,blue_fruit,5,blue_gem,1,,,,,,,,,,,,,,,,,,,
-449,,,,,,,,,,,,,,,,,,,,,,,,,
+449,,3000000,red_fruit,5,green_fruit,3,green_gem,1,,,,,,,,,,,,,,,,,
 450,,3000000,green_fruit,5,red_fruit,5,red_gem,1,green_gem,1,,,,,,,,,,,,,,,
 451,,,,,,,,,,,,,,,,,,,,,,,,,
 452,,,,,,,,,,,,,,,,,,,,,,,,,

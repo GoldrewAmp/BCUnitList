@@ -11,7 +11,7 @@ ID,LevelFormat,TrueXPCost,TrueMaterial1,TrueMaterialCount1,TrueMaterial2,TrueMat
 709,,,,,,,,,,,,,,,,,,,,,,,,,
 710,,,,,,,,,,,,,,,,,,,,,,,,,
 711,,,,,,,,,,,,,,,,,,,,,,,,,
-712,,,,,,,,,,,,,,,,,,,,,,,,,
+712,,1000000,purple_fruit,4,blue_fruit,4,green_fruit,4,yellow_fruit,6,epic_fruit,5,,,,,,,,,,,,,
 713,BadCollab,200000,purple_stone,10,red_stone,10,,,,,,,,,,,,,,,,,,,
 714,,,,,,,,,,,,,,,,,,,,,,,,,
 715,,1000000,purple_fruit,10,red_fruit,10,epic_fruit,3,,,,,,,,,,,,,,,,,

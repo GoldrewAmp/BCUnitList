@@ -32,7 +32,8 @@ const SPLASH_TEXT = {
         "Tap a stage's name to check what enemies will appear. You gotta play the stage at least once, though!",
         "Tap any stage name to make sure you didn't miss out on a one-time drop reward! You'll be glad you did!",
         "Don't forget about your Cat Combos! They can be super duper strong!!",
-        "Drop and give me 20! I want to see your 300%!!"
+        "Drop and give me 20! I want to see your 300%!!",
+        "Click on me and I'll give you a new message. Try and find them all!!"
     ],
     "uncommon": [
         "A strong Uber means nothing if they never get to attack! Send cheap units to distract the enemies while the strong units charge up their moves!!",
@@ -46,7 +47,7 @@ const SPLASH_TEXT = {
         "You don't need to make a difference. To me, you already have.",
         "The Aku Altar curses your units, forcing them to be level 1!! Beat levels in the Aku Realms to be able to use all your levels!",
         "Sage enemies have a massive resistance to status effects! Units with Sage Slayer can ignore that resistance.",
-        "You know those blue things you get from cat capsules sometimes? Those are ability orbs. Exchange five of them for a rare ticket!",
+        "You know those blue things you get from cat capsules sometimes? Those are ability orbs. Once your abilities are max level, exchange five orbs for a rare ticket!",
         "School isn't for learning, it's for knowing how to learn. If you're never challenged, you'll never grow!",
         "Yaaaawnn, I'm tired. Being a cat is hard work!",
         "Double tap the Cat CPU powerup to enable the Golden Cat CPU! This upgrade can automatically complete any stage you've already beaten.",
@@ -56,19 +57,21 @@ const SPLASH_TEXT = {
         "Complete every (yes EVERY) level in Stories of Legend for a secret reward!",
         "You can slide the cat base's door for a chance to find an ULTRA RARE cat!",
         "Units summoned by cats with the Conjure ability are immune to knockback, even the special knockback when a boss comes out of the enemy base. Does it smell like cheese in here?",
-        "Some stages have seemingly unbeatable enemies! Try beating the stage before they show up, or keeping other enemies around so they never appear!",
+        "Some stages have seemingly unbeatable enemies! Try beating the stage before they show up, or keep other enemies around so they never appear!",
         "Be fierce, be brave, be graceful.",
         "Devistating wave, surge, and explosions only appear when an enemy attack lands. Try to make the enemy miss if you can't afford to get hit by one of those!",
         "The different cat cannons all have their uses. Make sure you upgrade them all and equip the right one for the job!",
         "The Holyblast cannon does damage based on a zombie's max HP. With cannon recharge combos, you can quickly obliterate even the strongest zombies!",
         "If you want others to believe in you, start by believing in yourself!",
-        "Eat your vegetables, and you can have some catfruit as a treat!"
+        "Eat your vegetables, and you can have some catfruit as a treat!",
+        "Remember to clean out your dryer lint! It's a safety hazard!!",
+        "Play games to have fun! If you aren't having fun, you can always take a break... I'll still be here!"
     ],
     "rare": [
         "↑ ↑ ↓ ↓ ← → ← → B A",
         "Humanity… Catified…",
         "Your favorite unit? Outclassed by Sanzo.",
-        "Stone Cat is the best unit in the game. Anyone who says otherwise has skill issue.",
+        "Also play Minecraft!",
         "Courier is balanced, Can Can is the real broken unit.",
         "Chicken Jockey? More like Slug Jockey (Cat).",
         "Play Xenoblade!",
@@ -79,8 +82,10 @@ const SPLASH_TEXT = {
         "Cat food is PEOPLE!!! Oh wait, no it's not.",
         "Inside of you, there are two cats. One tells you to eat more fish, and the other also tells you that.",
         "You close your eyes. You open them again: It's Cat God. 'Sup bro, want some catfood?'",
-        "What are they, some kind of battling cats?\n\nSay that again...",
-        "There's a fire burning in your heart. Never let anyone put it out, not even you."
+        "What are they, some kind of battle cat?\n\nSay that again...",
+        "There's a fire burning in your heart. Never let anyone put it out, not even you.",
+        "The end is never the end. You can always keep on writing.",
+        "The past is never dead. It is not even past."
     ],
     "22t": "Flower Cat's true form is available tomorrow!",
     "22": "Flower Cat awakens today! Set a timer for 2:22 PM!"

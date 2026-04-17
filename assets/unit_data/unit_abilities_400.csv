@@ -122,6 +122,7 @@ ID,Form,Cost,Health,Damage,Range,KBCount,Speed,Cooldown,HasArea,Traits,Abilities
 448,2,4275,5580,1488,400,4,10,100,F,Black,Colossus_Slayer-Insane_Damage-Multi_Hit-Resistant-Slow_Immune-Weaken_Immune
 449,0,4830,3200,660,400,4,20,125.33,T,Floating-Red,Insane_Damage-Long_Distance
 449,1,4830,3200,660,400,4,20,125.33,T,Floating-Red,Insane_Damage-Long_Distance
+449,2,4830,4000,726,400,4,20,125.33,T,Floating-Red,Colossus_Slayer-Explosion_Immune-Freeze_Immune-Insane_Damage-Long_Distance
 450,0,6750,15000,5000,390,2,8,166.67,T,Floating-Red,Freeze_Immune-Insane_Resistance-Slow_Immune
 450,1,6750,15000,5000,390,2,8,166.67,T,Floating-Red,Freeze_Immune-Insane_Resistance-Slow_Immune
 450,2,6750,18000,5000,390,2,8,166.67,T,Floating-Red,Colossus_Slayer-Freeze_Immune-Insane_Resistance-Knockback_Immune-Slow_Immune-Toxic_Immune

@@ -29,7 +29,7 @@ ID,LevelFormat,TrueXPCost,TrueMaterial1,TrueMaterialCount1,TrueMaterial2,TrueMat
 327,,,,,,,,,,,,,,,,,,,,,,,,,
 328,,,,,,,,,,,,,,,,,,,,,,,,,
 329,,,,,,,,,,,,,,,,,,,,,,,,,
-330,,1000000,gold_seed,1,yellow_fruit,5,aku_fruit,2,,,,,,,,,,,,,,,,,
+330,,1000000,gold_seed,1,yellow_fruit,5,aku_fruit,2,,,,,100-100-175-175,,,,,,,,,,,,
 331,,1000000,purple_fruit,1,red_fruit,5,aku_fruit,1,,,,,,,,,,,,,,,,,
 332,,500000,gold_seed,1,red_seed,3,yellow_seed,3,blue_fruit,3,epic_fruit,3,,,,,,,,,,,,,
 333,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -37,10 +37,10 @@ ID,LevelFormat,TrueXPCost,TrueMaterial1,TrueMaterialCount1,TrueMaterial2,TrueMat
 335,,1000000,green_fruit,4,purple_fruit,4,red_fruit,8,blue_fruit,2,epic_fruit,3,100-100-175-175-175,,,,,,,,,,,,285-225-150
 336,,1000000,purple_fruit,6,red_fruit,4,blue_fruit,6,yellow_fruit,2,epic_fruit,3,100-100-175-175-175,,,,,,,,,,,,
 337,,1000000,epic_fruit,3,,,,,,,,,235-100-100-175-175,,,,,,,,,,,,
-338,,1000000,green_fruit,4,purple_fruit,7,red_fruit,3,yellow_fruit,4,epic_fruit,3,100-235-175-175-175,,,,,,,,,,,,
+338,,1000000,green_fruit,4,purple_fruit,7,red_fruit,3,yellow_fruit,4,epic_fruit,3,100-235-175-175-175,,,,,,,,,,,,150-225-225
 339,,,,,,,,,,,,,,,,,,,,,,,,,
 340,,,,,,,,,,,,,,,,,,,,,,,,,
-341,,1000000,blue_fruit,3,yellow_fruit,3,epic_fruit,1,,,,,100-175-100-175-175,,,,,,,,,,,,
+341,,1000000,blue_fruit,3,yellow_fruit,3,epic_fruit,1,,,,,100-175-100-175-175,,,,,,,,,,,,285-150-225
 342,GachaRare,,,,,,,,,,,,,,,,,,,,,,,,
 343,,,,,,,,,,,,,,,,,,,,,,,,,
 344,,500000,green_fruit,3,,,,,,,,,125-75-165-125-125,,,,,,,,,,,,
