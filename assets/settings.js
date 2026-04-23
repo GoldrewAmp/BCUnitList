@@ -1,8 +1,8 @@
 const SETTINGS = {
-    "version": "2.0",
-    "gameVersion": "15.2",
-    "unitCount": 854,
-    "skipImages": [339, 729, 732, 734, 739, 755, 761, 764, 770, 775, 782, 800, 802, 812, 816, 818, 821, 825, 838, 839],
+    "version": "2.1.0",
+    "gameVersion": "15.3",
+    "unitCount": 860,
+    "skipImages": [339, 729, 732, 734, 739, 755, 761, 764, 770, 775, 782, 800, 802, 812, 816, 818, 821, 825, 838, 839, 855, 860],
     "maxLoadoutNameLength": 64,
     "chapters": {
         "eoc": {
@@ -31,7 +31,7 @@ const SETTINGS = {
         "names": ["Default", "Slow Beam", "Iron Wall", "Thunderbolt", "Waterblast", "Holy Blast", "Breakerblast", "Curseblast"]
     },
     "abilities": {
-        "abilityNames": ["Cat Cannon Power", "Cat Cannon Range", "Cat Cannon Charge", "Worker Cat Rate", "Worker Cat Wallet", "Base Defense", "Research", "Accounting", "Study", "Cat Energy"],
+        "abilityNames": ["Cat Cannon Power", "Cat Cannon Range", "Cat Cannon Charge", "Worker Cat Rate", "Worker Cat Wallet", "Base Defense", "Research", "Bounty Up", "Study", "Cat Energy"],
         "levelCaps": [20, 10, 20, 20, 20, 20, 20, 20, 20, 20],
         "plusLevelCaps": [10, 0, 10, 10, 10, 10, 10, 10, 10, 10],
         "costs": {
@@ -45,7 +45,7 @@ const SETTINGS = {
         }
     },
     "categoryTypes": ["collabs", "event_units", "gacha_non_uber", "gacha_seasonal", "gacha_uber", "other", "seasonal_events", "small_collabs", "story_units"],
-    "traits": ["Red", "Floating", "Black", "Metal", "Angel", "Alien", "Zombie", "Relic", "Aku", "Traitless"],
+    "traits": ["Red", "Floating", "Dark", "Metal", "Angel", "Alien", "Zombie", "Relic", "Aku", "Traitless"],
     "subTraits": ["Behemoth", "Colossus", "Sage"],
     "targettingAbilities": ["Omnistrike", "Long_Distance", "Multi_Hit"],
     "statGrowth": {
@@ -87,7 +87,7 @@ const SETTINGS = {
             "Insane_Resistance": [6, 1]
         },
         "trait": {
-            "Black": ["Void Fruit", "itf"],
+            "Dark": ["Void Fruit", "itf"],
             "Red": ["Blood Fruit", "itf"],
             "Floating": ["Sky Fruit", "itf"],
             "Angel": ["Heaven's Fruit", "itf"],

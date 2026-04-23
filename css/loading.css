@@ -14,7 +14,7 @@
 #loading-container {
     width: 50%;
     height: 10vh;
-    background-color: black;
+    background-color: #000000;
     display: flex;
     align-items: flex-start;
 }

@@ -1,5 +1,5 @@
 const ORB_MAP = {
-    "traits": ["Red", "Floating", "Black", "Metal", "Angel", "Alien", "Zombie", "Relic", "Aku"],
+    "traits": ["Red", "Floating", "Dark", "Metal", "Angel", "Alien", "Zombie", "Relic", "Aku"],
     "types": ["Attack", "Defense", "Massive Damage", "Resistant", "Tough Vs."],
     "encoded_types": ["Attack", "Defense", "Massive_Damage", "Resistant", "Strong"],
     "type_mults": {
