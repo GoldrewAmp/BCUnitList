@@ -29,7 +29,7 @@ ID,LevelFormat,TrueXPCost,TrueMaterial1,TrueMaterialCount1,TrueMaterial2,TrueMat
 327,,,,,,,,,,,,,,,,,,,,,,,,,
 328,,,,,,,,,,,,,,,,,,,,,,,,,
 329,,,,,,,,,,,,,,,,,,,,,,,,,
-330,,1000000,gold_seed,1,yellow_fruit,5,aku_fruit,2,,,,,100-100-175-175,,,,,,,,,,,,
+330,,1000000,gold_seed,1,yellow_fruit,5,aku_fruit,2,,,,,100-100-175-175-175,,,,,,,,,,,,
 331,,1000000,purple_fruit,1,red_fruit,5,aku_fruit,1,,,,,,,,,,,,,,,,,
 332,,500000,gold_seed,1,red_seed,3,yellow_seed,3,blue_fruit,3,epic_fruit,3,,,,,,,,,,,,,
 333,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -50,7 +50,7 @@ ID,LevelFormat,TrueXPCost,TrueMaterial1,TrueMaterialCount1,TrueMaterial2,TrueMat
 348,,,,,,,,,,,,,,,,,,,,,,,,,
 349,,,,,,,,,,,,,,,,,,,,,,,,,
 350,,,,,,,,,,,,,,,,,,,,,,,,,
-351,,1000000,purple_fruit,6,red_fruit,3,blue_fruit,6,yellow_fruit,3,epic_fruit,3,100-235-175-175-175,,,,,,,,,,,,
+351,,1000000,purple_fruit,6,red_fruit,3,blue_fruit,6,yellow_fruit,3,epic_fruit,3,100-235-175-175-175,,,,,,,,,,,,285-150-225
 352,UR,,,,,,,,,,,,,,,,,,,,,,,,
 353,BadCollab,,,,,,,,,,,,,,,,,,,,,,,,
 354,,,,,,,,,,,,,,,,,,,,,,,,,
