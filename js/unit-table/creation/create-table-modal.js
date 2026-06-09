@@ -20,6 +20,10 @@ export default function createTableOptionModal() {
     const exit = document.createElement("div");
     exit.id = "table-option-cancel";
     exit.classList.add("modal-close");
+
+    modal.addEventListener("click", ev => {
+        if(ev.target === modal) exit.dispatchEvent(new Event("click"));
+    });
     
     const closeX = document.createElementNS("http://www.w3.org/2000/svg", "svg");
     closeX.setAttribute("viewBox", "0 0 64 64");
@@ -35,8 +39,8 @@ export default function createTableOptionModal() {
     content.classList.add("v-align");
     content.append(createOptionSelection(), createFilterSelection());
 
-    modalFill.append(exit, label, content);
-    modal.appendChild(modalFill);
+    modalFill.append(label, content);
+    modal.append(modalFill, exit);
     return modal;
 }
 

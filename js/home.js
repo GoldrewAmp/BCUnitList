@@ -39,7 +39,7 @@ function randomizeSplash() {
     const rand = Math.random();
     if(rand < 0.7) {
         /** @type {HTMLDivElement} */ (document.querySelector("#home-splash")).textContent = SPLASH_TEXT.common[Math.floor(Math.random() * SPLASH_TEXT.common.length)];
-    } else if(rand < 0.995) {
+    } else if(rand < 0.9995) {
         /** @type {HTMLDivElement} */ (document.querySelector("#home-splash")).textContent = SPLASH_TEXT.uncommon[Math.floor(Math.random() * SPLASH_TEXT.uncommon.length)];
     } else {
         /** @type {HTMLDivElement} */ (document.querySelector("#home-splash")).textContent = SPLASH_TEXT.rare[Math.floor(Math.random() * SPLASH_TEXT.rare.length)];

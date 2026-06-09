@@ -115,7 +115,7 @@ function createBaseValueInput(cap, currentValue, type, id) {
         const currentValues = window.localStorage.getItem(`oo_${id}`)?.split("-") ?? ["0", "0", "0"];
         currentValues[type] = inputElm.value;
         window.localStorage.setItem(`oo_${id}`, currentValues.join("-"));
-    });
+    }, id === 1 ? 1 : 0); // Min is set to 1 for default base because it starts at level 1 foundation
 
     valueLabel.append(labelText, labelInput);
     return valueLabel;

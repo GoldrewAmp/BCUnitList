@@ -149,9 +149,6 @@
     text-align: center;
     cursor: pointer;
 }
-#file-selector-button:hover {
-    background-color: var(--highlight-content);
-}
 
 #file-selector {
     margin: 2vh 0;

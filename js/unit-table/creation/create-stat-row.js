@@ -246,7 +246,7 @@ function createStatOptionBox(unitData, updateCallback) {
             subTraitIconBox.classList.add("option-icon-targetted");
         }
 
-        subTraitIconBox.src = `./assets/img/ability/${SETTINGS.subTraits[x]}_Slayer.png`;
+        subTraitIconBox.src = `./assets/img/ability/${SETTINGS.subTraitKillers[x]}.png`;
         subTraitIconBox.onclick = () => {
             subTraitIconBox.classList.toggle("option-icon-targetted");
             updateCallback();
@@ -309,11 +309,11 @@ function createStatOptionBox(unitData, updateCallback) {
     orbCheckbox.onchange = () => updateCallback();
 
     const ignoreFormCheckbox = document.createElement("input");
-    ignoreFormCheckbox.title = "Whether the unit's talents require the prerequisite evolution form to be active.";
+    ignoreFormCheckbox.title = "Normally, talents are only active for units in TF, and ultra talents are only active for units in UF. This option controls whether that rule is followed.";
     ignoreFormCheckbox.type = "checkbox";
     ignoreFormCheckbox.checked = StatCalculator.DEFAULT_CALCULATOR_OPTIONS.talentIgnoreForm;
-    const ignoreFormWrapper = createOptionLabel("No Talent Form Req.", ignoreFormCheckbox);
-    ignoreFormWrapper.title = "Whether the unit's talents require the prerequisite evolution form to be active.";
+    const ignoreFormWrapper = createOptionLabel("Talents require TF/UF", ignoreFormCheckbox);
+    ignoreFormWrapper.title = "Normally, talents are only active for units in TF, and ultra talents are only active for units in UF. This option controls whether that rule is followed.";
     ignoreFormWrapper.classList.add("option-checkbox-align");
     if(unitData.talents.length === 0 && unitData.ultra_talents.length === 0) {
         ignoreFormWrapper.classList.add("hidden");

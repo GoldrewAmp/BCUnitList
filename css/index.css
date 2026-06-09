@@ -36,9 +36,6 @@ body {
     vertical-align: middle;
     border-left: 1px solid var(--content-border);
 }
-#nav-bar button.current {
-    background-color: var(--highlight-content);
-}
 #nav-bar button:last-of-type {
     border-right: 1px solid var(--content-border);
 }

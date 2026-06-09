@@ -46,7 +46,8 @@ const SETTINGS = {
     },
     "categoryTypes": ["collabs", "event_units", "gacha_non_uber", "gacha_seasonal", "gacha_uber", "other", "seasonal_events", "small_collabs", "story_units"],
     "traits": ["Red", "Floating", "Dark", "Metal", "Angel", "Alien", "Zombie", "Relic", "Aku", "Traitless"],
-    "subTraits": ["Behemoth", "Colossus", "Sage"],
+    "subTraits": ["Behemoth", "Colossus", "Sage", "Witch", "Eva"],
+    "subTraitKillers": ["Behemoth_Slayer", "Colossus_Slayer", "Sage_Slayer", "Witch_Killer", "Eva_Killer"],
     "targettingAbilities": ["Omnistrike", "Long_Distance", "Multi_Hit"],
     "statGrowth": {
         "rarity": {
@@ -100,12 +101,16 @@ const SETTINGS = {
         "atk": {
             "Colossus_Slayer": 1.6,
             "Behemoth_Slayer": 2.5,
-            "Sage_Slayer": 1.2
+            "Sage_Slayer": 1.2,
+            "Witch_Killer": 5,
+            "Eva_Killer": 5
         },
         "def": {
             "Colossus_Slayer": 1.3,
             "Behemoth_Slayer": 1.4,
-            "Sage_Slayer": 2
+            "Sage_Slayer": 2,
+            "Witch_Killer": 10,
+            "Eva_Killer": 5
         },
     },
     "abilityGroupings": [

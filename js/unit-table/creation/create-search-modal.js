@@ -43,6 +43,10 @@ export default function createSearchModal() {
     closeX.onclick = () => output.classList.add("hidden");
     output.appendChild(closeX);
 
+    output.addEventListener("click", ev => {
+        if(ev.target === output) closeX.dispatchEvent(new Event("click"));
+    });
+
     const content = document.createElement("div");
     content.id = "advanced-search-modal";
 

@@ -33,6 +33,7 @@ const SPLASH_TEXT = {
         "Tap any stage name to make sure you didn't miss out on a one-time drop reward! You'll be glad you did!",
         "Don't forget about your Cat Combos! They can be super duper strong!!",
         "Drop and give me 20! I want to see your 300%!!",
+        "Always unlock new cat units, no matter how weak they might seem. You never know when that one extra cat will make the difference!",
         "Click on me and I'll give you a new message. Try and find them all!!"
     ],
     "uncommon": [
@@ -51,7 +52,7 @@ const SPLASH_TEXT = {
         "School isn't for learning, it's for knowing how to learn. If you're never challenged, you'll never grow!",
         "Yaaaawnn, I'm tired. Being a cat is hard work!",
         "Double tap the Cat CPU powerup to enable the Golden Cat CPU! This upgrade can automatically complete any stage you've already beaten.",
-        "Consider your defensive units carefully! It's better to have a unit that costs 300¢ but survives 5 hits then a unit that costs 150¢ and only survives 2 hits.",
+        "Sending out cheap Cats to slow your enemies' progress can help your stronger, more expensive units avoid getting overwhelmed! Don't worry, we can take it!",
         "Don't trust what you see on TV! Unless a cat said it, then it's probably true.",
         "Equipping an S rank Resist Orb on a unit with the same ability gives the unit a full immunity! This even works just by equipping two S rank orbs!!",
         "Complete every (yes EVERY) level in Stories of Legend for a secret reward!",
@@ -72,7 +73,7 @@ const SPLASH_TEXT = {
         "Humanity… Catified…",
         "Your favorite unit? Outclassed by Sanzo.",
         "Also play Minecraft!",
-        "Courier is balanced, Can Can is the real broken unit.",
+        "Courier is overrated. Can Can is the real unbalanced unit.",
         "Chicken Jockey? More like Slug Jockey (Cat).",
         "Play Xenoblade!",
         "From the distance, an echoing roar. They emerge, their distorted figures rising above the mountain tops.",

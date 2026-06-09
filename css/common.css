@@ -7,7 +7,7 @@
     --content: #fbbc04;
     --highlight-content: #f7cb4d;
     --content-border: #d8a406;
-    --modal-fade: #00000099;
+    --modal-fade: #000000CC;
     --warning: #e62427;
     --highlight-warning: #ff5255;
     --warning-border: #c01d20;
@@ -63,10 +63,11 @@
     --generic-bg: #fff0d2;
     --generic-bg2: #ffeac0;
     --generic-border: #cc6600;
-    --rarity-content: var(--generic-content);
-    --rarity-bg: var(--generic-bg);
-    --rarity-bg2: var(--generic-bg2);
-    --rarity-border: var(--generic-border);
+    
+    --rarity-content: var(--content);
+    --rarity-bg: var(--highlight-bg);
+    --rarity-bg2: var(--highlight-bg2);
+    --rarity-border: var(--content-border);
 }
 
 .ability-upgrade-color {
@@ -196,22 +197,21 @@ iframe {
 }
 
 button {
-    --rarity-content: var(--content);
-    --rarity-bg: var(--highlight-bg);
-    --rarity-bg2: var(--highlight-bg2);
-    --rarity-border: var(--content-border);
+    border: 2px solid var(--text);
+}
+button, .clickable {
     background-color: var(--rarity-content);
-    border: 2px solid var(-text);
     cursor: pointer;
-    transition: background-color 0.1s linear, filter 0.1s linear;
+    transition: background-color 0.04s ease, filter 0.04s ease;
     font-weight: bolder;
     user-select: none;
 }
-button:disabled {
-    filter: contrast(0.5);
+button:disabled, .clickable:disabled {
+    filter: brightness(0.9) grayscale(0.6);
+    cursor: not-allowed;
 }
-button:not(:disabled):hover {
-    filter: invert(0.25) saturate(1.5);
+button:not(:disabled):hover, .clickable:not(:disabled):hover {
+    filter: invert(0.1) brightness(0.9);
 }
 
 img {

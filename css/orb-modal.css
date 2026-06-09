@@ -1,9 +1,6 @@
 .modal-bg {
     position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    inset: 0;
     z-index: 999999999999;
     background-color: var(--modal-fade);
     display: flex;
@@ -20,8 +17,7 @@
     min-height: 90%;
     background-color: var(--highlight-bg);
     padding: 2vw;
-    border-radius: 1vh;
-    position: relative;
+    clip-path: inset(0 round 1vh);
     overflow: auto;
     display: flex;
     flex-direction: column;
@@ -81,9 +77,6 @@
 
 #remove-orb {
     background-color: var(--warning);
-}
-#remove-orb:hover {
-    background-color: var(--highlight-warning);
 }
 
 .rank-selection .rank-shrinkwrap, .image-selector {
@@ -174,10 +167,14 @@
 .modal-close {
     width: 2vw;
     height: 2vw;
-    position: absolute;
+    position: fixed;
     top: 1vw;
     right: 1vw;
     cursor: pointer;
+    fill: var(--content);
+}
+.modal-close:hover {
+    filter: invert(0.1);
 }
 
 #orb-series-toggle {
@@ -205,4 +202,8 @@
 }
 .ability-selection > * {
     text-align: center;
+}
+
+#orb-selection-modal .modal-fill {
+    position: relative;
 }

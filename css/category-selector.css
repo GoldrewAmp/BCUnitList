@@ -133,7 +133,3 @@
     width: fit-content;
     height: fit-content;
 }
-.category-row button:hover {
-    filter: brightness(0.8);
-    background-color: var(--rarity-content);
-}

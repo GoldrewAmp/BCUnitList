@@ -91,7 +91,7 @@ export function createIconBox(id, currentForm, maxForm, iconDisabled, nameCallba
     rowImage.dataset.max_form = `${maxForm}`;
 
     const rowIMG = document.createElement("img");
-    rowIMG.classList.add("unit-icon");
+    rowIMG.classList.add("unit-icon", "clickable");
     rowIMG.loading = "lazy";
 
     if(iconDisabled) {

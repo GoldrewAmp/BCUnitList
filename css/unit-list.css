@@ -72,7 +72,6 @@
 }
 #quick-nav-options button:hover {
     background-color: var(--rarity-bg2);
-    filter: brightness(0.8);
 }
 
 h2 {

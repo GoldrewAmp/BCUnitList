@@ -39,13 +39,6 @@ img {
     vertical-align: middle;
     border-left: 1px solid var(--content-border);
 }
-#base-section-nav > button:hover {
-    background-color: var(--highlight-content);
-}
-
-#base-section-nav > button.current {
-    background-color: var(--highlight-content);
-}
 
 .treasure-chapter {
     width: 90vw;
@@ -162,9 +155,6 @@ input[type='number']::-webkit-inner-spin-button {
 
 #reset-tab {
     background-color: var(--warning);
-}
-#reset-tab:hover {
-    background-color: var(--highlight-warning);
 }
 
 #upgrade-selector {

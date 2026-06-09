@@ -1,3 +1,10 @@
+:root {
+    --rarity-content: var(--generic-content);
+    --rarity-bg: var(--generic-bg);
+    --rarity-bg2: var(--generic-bg2);
+    --rarity-border: var(--generic-border);
+}
+
 #loading-content {
     display: grid;
     grid-template-columns: 10vw 1fr;
@@ -19,6 +26,7 @@
 .sidebar-section {
     font-size: 12pt;
     font-weight: bolder;
+    background-color: var(--generic-content);
     max-height: 10vh;
     flex-grow: 1;
     display: flex;
@@ -27,13 +35,9 @@
     user-select: none;
     cursor: pointer;
     width: 100%;
-    transition: background-color 0.1s ease;
 }
 .sidebar-section:not(:last-of-type) {
     border-bottom: 2px solid var(--generic-border);
-}
-.sidebar-section:hover {
-    background-color: var(--generic-border);
 }
 
 .sidebar-title {
@@ -56,6 +60,7 @@
 }
 
 #home-cat-quote {
+    position: relative;
     width: 28vw;
     aspect-ratio: 2/1;
     background-image: linear-gradient(to bottom, #20302e, #496965);
@@ -100,4 +105,37 @@ ul ul {
 .home-citation p {
     margin-top: 0.1vh;
     margin-bottom: 3vh;
+}
+
+#home-content-section {
+    overflow: clip;
+}
+
+@keyframes bob {
+    0% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(10px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+#home-cat {
+    --size: 150px;
+    position: absolute;
+    display: block;
+    width: var(--size);
+    aspect-ratio: 1/1;
+    top: calc(100% - calc(var(--size) / 2));
+    left: calc(100% - calc(var(--size) / 2));
+    background-image: url("../assets/img/cat.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: 1s ease bob infinite;
 }

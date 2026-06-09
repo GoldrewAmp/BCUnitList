@@ -182,7 +182,8 @@ export async function initializeDataset(datalist, names) {
         appendSearchSuggestions(names[x], datalist);
     }
 
-    [...datalist.children].sort((a, b) => ((a.textContent?.toLowerCase() ?? "") > (b.textContent?.toLowerCase() ?? "")) ? 1 : -1).forEach(n => datalist.appendChild(n));
+    const sorter = new Intl.Collator("en");
+    [...datalist.children].sort((a, b) => sorter.compare(a.textContent?.toLowerCase() ?? "", b.textContent?.toLowerCase() ?? "")).forEach(n => datalist.appendChild(n));
 }
 
 /**

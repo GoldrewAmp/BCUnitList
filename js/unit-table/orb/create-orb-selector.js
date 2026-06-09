@@ -18,6 +18,10 @@ export default function createOrbMenu() {
     const exit = document.createElement("div");
     exit.id = "orb-selection-cancel";
     exit.classList.add("modal-close");
+
+    modalBG.addEventListener("click", ev => {
+        if(ev.target === modalBG) exit.dispatchEvent(new Event("click"));
+    });
     
     const closeX = document.createElementNS("http://www.w3.org/2000/svg", "svg");
     closeX.setAttribute("viewBox", "0 0 64 64");
@@ -61,8 +65,8 @@ export default function createOrbMenu() {
     abilitySeries.classList.add("hidden");
     const seriesToggle = createSeriesSelector(resultDisplay, effectSeries, abilitySeries);
 
-    content.append(exit, seriesToggle, label, effectSeries, abilitySeries, confirmCentering);
-    modalBG.appendChild(content);
+    content.append(seriesToggle, label, effectSeries, abilitySeries, confirmCentering);
+    modalBG.append(content, exit);
 
     return modalBG;
 }

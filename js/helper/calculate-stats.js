@@ -36,7 +36,7 @@ export const DEFAULT_CALCULATOR_OPTIONS = {
     includeTalents: true,
     includeOrbs: true,
     eocChapterPrice: 2, // Currently unused
-    talentIgnoreForm: false
+    talentIgnoreForm: true
 }
 
 /**
@@ -76,9 +76,12 @@ export function calculateHealth(initialValue, updatedData, fixedData, calculator
     let health = getLevelStatMult(initialValue, usedLevel, fixedData.id, fixedData.rarity, shieldMult);
     health *= getTraitSpecificMult(fixedData, updatedData, calculatorOptions, "def");
     
-    for(const subTrait of calculatorOptions.targetSubTraits) {
-        if(hasAbility(`${subTrait}_Slayer`, fixedData, updatedData, calculatorOptions.includeTalents, calculatorOptions.talentIgnoreForm)) {
-            health *= SETTINGS.subTraitEffectMult.def[`${subTrait}_Slayer`];
+    for(const subtrait of calculatorOptions.targetSubTraits) {
+        const subtraitIndex = SETTINGS.subTraits.indexOf(subtrait);
+        const subtraitKillerAbility = SETTINGS.subTraitKillers[subtraitIndex];
+
+        if(hasAbility(subtraitKillerAbility, fixedData, updatedData, calculatorOptions.includeTalents, calculatorOptions.talentIgnoreForm)) {
+            health *= SETTINGS.subTraitEffectMult.def[subtraitKillerAbility] ?? 1;
         }
     }
 
@@ -124,9 +127,12 @@ export function calculateDamage(initialValue, updatedData, fixedData, calculator
     let damage = getLevelStatMult(initialValue, usedLevel, fixedData.id, fixedData.rarity, swordMult);
     damage *= getTraitSpecificMult(fixedData, updatedData, calculatorOptions, "atk");
     
-    for(const subTrait of calculatorOptions.targetSubTraits) {
-        if(hasAbility(`${subTrait}_Slayer`, fixedData, updatedData, calculatorOptions.includeTalents, calculatorOptions.talentIgnoreForm)) {
-            damage *= SETTINGS.subTraitEffectMult.atk[`${subTrait}_Slayer`];
+    for(const subtrait of calculatorOptions.targetSubTraits) {
+        const subtraitIndex = SETTINGS.subTraits.indexOf(subtrait);
+        const subtraitKillerAbility = SETTINGS.subTraitKillers[subtraitIndex];
+
+        if(hasAbility(subtraitKillerAbility, fixedData, updatedData, calculatorOptions.includeTalents, calculatorOptions.talentIgnoreForm)) {
+            damage *= SETTINGS.subTraitEffectMult.atk[subtraitKillerAbility] ?? 1;
         }
     }
 

@@ -51,8 +51,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 6px;
     border: none;
+}
+
+#search-extra svg {
+    width: 16px;
+    aspect-ratio: 1/1;
+    margin-left: 1px;
 }
 
 #unit-border {

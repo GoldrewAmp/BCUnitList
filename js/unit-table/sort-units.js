@@ -129,13 +129,14 @@ export function formSortLambda(a, b) {
     return res !== 0 ? res : idSortLambda(a, b);
 }
 
+const sorter = new Intl.Collator("en");
 /**
  * Sort rows by unit name, alphabetical.
  * @param {HTMLTableRowElement} a
  * @param {HTMLTableRowElement} b
  */
 export function nameSortLambda(a, b) {
-    return (/** @type {HTMLDivElement} */ (a.querySelector("td.row-name"))).innerText < (/** @type {HTMLDivElement} */ (b.querySelector("td.row-name"))).innerText ? -1 : 1;
+    return sorter.compare((/** @type {HTMLDivElement} */ (a.querySelector("td.row-name"))).innerText.toLowerCase(), (/** @type {HTMLDivElement} */ (b.querySelector("td.row-name"))).innerText.toLowerCase());
 }
 
 /**
