@@ -268,6 +268,10 @@ td.head-option, td.row-option {
     cursor: pointer;
     border-top: 1px solid var(--rarity-border);
     border-left: 1px solid var(--rarity-border);
+    transition: background-color 0.1s ease;
+}
+.searchable-table-title:hover {
+    background-color: var(--rarity-border);
 }
 
 .open-table-option-wrapper {

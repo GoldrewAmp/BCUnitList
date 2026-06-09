@@ -67,7 +67,7 @@ ID,Form,Cost,Health,Damage,Range,KBCount,Speed,Cooldown,HasArea,Traits,Abilities
 836,0,4500,1900,1300,450,2,6,133.33,T,Aku-Dark-Red,Explosion-Explosion_Immune-Savage_Blow-Slow-Strong-Surge_Immune-Weaken_Immune
 836,1,4500,2200,1600,450,2,6,133.33,T,Aku-Dark-Red,Explosion-Explosion_Immune-Savage_Blow-Slow-Strong-Surge_Immune-Weaken_Immune
 837,0,900,1800,580,150,1,13,18.67,T,Aku-Angel-Dark-Relic,Conjure-Curse_Immune-Knockback-Knockback_Immune-Omnistrike-Resistant-Slow_Immune-Surge_Immune
-838,1,3450,4600,1650,250,2,9,18.67,T,Aku-Angel-Dark-Relic,Conjure-Curse_Immune-Freeze_Immune-Knockback-Knockback_Immune-Omnistrike-Resistant-Savage_Blow-Slow_Immune-Surge_Immune-Weaken_Immune
+837,1,3450,4600,1650,250,2,9,18.67,T,Aku-Angel-Dark-Relic,Conjure-Curse_Immune-Freeze_Immune-Knockback-Knockback_Immune-Omnistrike-Resistant-Savage_Blow-Slow_Immune-Surge_Immune-Weaken_Immune
 838,0,0,0,750,600,1,0,0,T,All,Dodge-Kamikaze-Knockback-Mini_Surge-Shockwave_Immune
 839,0,0,0,2250,800,1,0,0,T,All,Dodge-Kamikaze-Knockback-Mini_Surge-Shockwave_Immune
 840,0,4500,2000,600,600,4,12,140,T,Angel-Floating,Explosion-Long_Distance-Massive_Damage-Slow_Immune-Surge_Immune-Survive

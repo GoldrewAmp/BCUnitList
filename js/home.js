@@ -25,24 +25,33 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function randomizeSplash() {
+    const splashContainer = /** @type {HTMLDivElement} */ (document.querySelector("#home-splash"));
+
     const dateCheck = new Date().getDate();
     const beatITF3 = window.localStorage.getItem("bhtf") === "1";
     const noFlowerTF = window.localStorage.getItem("bloom") !== "1";
     if((dateCheck === 21 || dateCheck === 1) && beatITF3 && noFlowerTF) {
-        /** @type {HTMLDivElement} */ (document.querySelector("#home-splash")).textContent = SPLASH_TEXT["22t"];
+        splashContainer.textContent = SPLASH_TEXT["22t"];
         return;
     } else if((dateCheck === 22 || dateCheck === 2) && beatITF3 && noFlowerTF) {
-        /** @type {HTMLDivElement} */ (document.querySelector("#home-splash")).textContent = SPLASH_TEXT["22"];
+        splashContainer.textContent = SPLASH_TEXT["22"];
         return;
     }
 
+    const previousTextContent = splashContainer.textContent;
     const rand = Math.random();
     if(rand < 0.7) {
-        /** @type {HTMLDivElement} */ (document.querySelector("#home-splash")).textContent = SPLASH_TEXT.common[Math.floor(Math.random() * SPLASH_TEXT.common.length)];
+        while(splashContainer.textContent === previousTextContent) {
+            splashContainer.textContent = SPLASH_TEXT.common[Math.floor(Math.random() * SPLASH_TEXT.common.length)];
+        }
     } else if(rand < 0.9995) {
-        /** @type {HTMLDivElement} */ (document.querySelector("#home-splash")).textContent = SPLASH_TEXT.uncommon[Math.floor(Math.random() * SPLASH_TEXT.uncommon.length)];
+        while(splashContainer.textContent === previousTextContent) {
+            splashContainer.textContent = SPLASH_TEXT.uncommon[Math.floor(Math.random() * SPLASH_TEXT.uncommon.length)];
+        }
     } else {
-        /** @type {HTMLDivElement} */ (document.querySelector("#home-splash")).textContent = SPLASH_TEXT.rare[Math.floor(Math.random() * SPLASH_TEXT.rare.length)];
+        while(splashContainer.textContent === previousTextContent) {
+            splashContainer.textContent = SPLASH_TEXT.rare[Math.floor(Math.random() * SPLASH_TEXT.rare.length)];
+        }
     }
 }
 

@@ -109,6 +109,20 @@ export function createTargetTraitFilterInput() {
     const wrapperContent = document.createElement("div");
     wrapperContent.id = "advanced-trait-spacer";
 
+    const excludeAllInput = document.createElement("input");
+    excludeAllInput.id = "advanced-no-all-filter";
+    excludeAllInput.type = "checkbox";
+    excludeAllInput.checked = true;
+
+    const excludeAllLabel = document.createElement("label");
+    excludeAllLabel.textContent = 'Exclude "Target All"';
+    excludeAllLabel.title = "If you are filtering for target traits, search results will not include units who target every (or every non-metal) trait"
+    excludeAllLabel.htmlFor = "advanced-no-all-filter";
+
+    const spacer = document.createElement("div");
+    spacer.classList.add("advaced-label-spacer", "exclude-all-wrapper");
+    spacer.append(excludeAllLabel, excludeAllInput);
+
     for(const trait of SETTINGS.traits) {
         const btnWrapper = document.createElement("div");
         btnWrapper.classList.add("advanced-trait-selector-wrapper", "inactive");
@@ -120,6 +134,8 @@ export function createTargetTraitFilterInput() {
         btn.title = trait;
 
         const btnSlash = document.createElement("span");
+        btnSlash.classList.add("advanced-trait-slash");
+        btnSlash.title = trait;
         btnSlash.innerHTML = `
         <svg viewBox="0 0 100 100">
             <line x1="0" y1="100" x2="100" y2="0" />
@@ -130,34 +146,38 @@ export function createTargetTraitFilterInput() {
         wrapperContent.appendChild(btnWrapper);
     }
 
-    wrapper.append(wrapperLabel, wrapperContent);
+    wrapper.append(wrapperLabel, wrapperContent, spacer);
     output.obj = wrapper;
 
     output.filterCallback = (/** @type {import("../../data/unit-data.js").UNIT_DATA} */ u) => [...new Array(u.max_form + 1).keys()].map(form => {
-        const output = [];
+        if(excludeAllInput.checked && (u.stats[form].traits.length === SETTINGS.traits.length || (u.stats[form].traits.length === SETTINGS.traits.length - 1 && !u.stats[form].traits.includes("Metal")))) {
+            return [false, false, false];
+        }
+
+        const soutput = [];
         const unitCpy = UnitData.dataToRecord(u);
         unitCpy.current_form = form;
 
         let formTraits = getUnitTraitTargets(u, unitCpy, true, false);
-        output.push(/** @type {HTMLDivElement[]} */ ([...wrapperContent.querySelectorAll(".advanced-trait-selector-wrapper")])
+        soutput.push(/** @type {HTMLDivElement[]} */ ([...wrapperContent.querySelectorAll(".advanced-trait-selector-wrapper")])
                 .every(w => w.classList.contains("inactive") || formTraits.includes(w.dataset.trait ?? "")));
 
         if(form < 2) {
-            output.push(false, false);
-            return output;
+            soutput.push(false, false);
+            return soutput;
         }
 
         unitCpy.talents = u.talents.map(t => t.cap);
         formTraits = getUnitTraitTargets(u, unitCpy, true, false);
-        output.push(/** @type {HTMLDivElement[]} */ ([...wrapperContent.querySelectorAll(".advanced-trait-selector-wrapper")])
+        soutput.push(/** @type {HTMLDivElement[]} */ ([...wrapperContent.querySelectorAll(".advanced-trait-selector-wrapper")])
                 .every(w => w.classList.contains("inactive") || formTraits.includes(w.dataset.trait ?? "")));
 
         unitCpy.ultra_talents = u.ultra_talents.map(t => t.cap);
         formTraits = getUnitTraitTargets(u, unitCpy, true, false);
-        output.push(/** @type {HTMLDivElement[]} */ ([...wrapperContent.querySelectorAll(".advanced-trait-selector-wrapper")])
+        soutput.push(/** @type {HTMLDivElement[]} */ ([...wrapperContent.querySelectorAll(".advanced-trait-selector-wrapper")])
                 .every(w => w.classList.contains("inactive") || formTraits.includes(w.dataset.trait ?? "")));
 
-        return output;
+        return soutput;
     });
 
     return output;

@@ -145,6 +145,9 @@ export default function createSearchModal() {
  * @param {(units: number[]) => number[]} resultFilter A function which filters the search results.
  */
 async function applySearch(searchCallback, resultFilter) {
+    const container = /** @type {HTMLDivElement} */ (document.querySelector("#advanced-results-content"));
+    container.innerHTML = '<p id="search-loading-msg">Loading...</p>';
+    
     const data = await REQUEST_TYPES.GET_ALL_DATA(true);
     const res = {};
 
@@ -160,7 +163,7 @@ async function applySearch(searchCallback, resultFilter) {
 
     const resFilter = resultFilter(Object.keys(res).map(k => parseInt(k)));
     const filteredRes = Object.fromEntries(resFilter.map(k => [k, res[k]]));
-    displayResults(filteredRes);
+    displayResults(container, filteredRes);
 }
 
 /**
@@ -199,10 +202,10 @@ function createResults() {
 
 /**
  * Displays the results of a search.
+ * @param {HTMLDivElement} container A container to put the results in.
  * @param {object} results An object that maps unit ids to the rest of their data and the forms which met the search criteria.
  */
-function displayResults(results) {
-    const container = /** @type {HTMLDivElement} */ (document.querySelector("#advanced-results-content"));
+function displayResults(container, results) {
     container.innerHTML = "";
 
     for(const key of Object.keys(results).sort((a, b) => parseInt(a) - parseInt(b))) {
@@ -268,6 +271,7 @@ function displayResults(results) {
             formBtn.classList.add(`advanced-form-${x}`);
             if(results[key].forms[x]) {
                 formBtn.innerHTML = ["N", "E", "T", "U"][x];
+                formBtn.title = `(${["Normal Form", "Evolved Form", "True Form", "Ultra Form"][x]}) - These letters represent the unit's forms. A letter is only shown for forms which match`
                 formBtn.classList.add("advanced-clickable");
                 formBtn.onclick = () => {
                     if(!validImage) {

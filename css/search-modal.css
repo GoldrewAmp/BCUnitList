@@ -362,3 +362,14 @@
 #advanced-search-exit:hover {
     filter: invert(0.1);
 }
+
+.exclude-all-wrapper {
+    margin-top: 2vh;
+}
+
+#search-loading-msg {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bolder;
+    font-size: 16pt;
+}
