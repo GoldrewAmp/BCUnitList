@@ -61,7 +61,7 @@ ID,LevelFormat,TrueXPCost,TrueMaterial1,TrueMaterialCount1,TrueMaterial2,TrueMat
 359,,1000000,green_fruit,4,red_fruit,4,blue_fruit,7,yellow_fruit,3,epic_fruit,3,235-175-175-175-175,2000000,blue_gem,2,blue_fruit,10,,,,,,,
 360,,1000000,green_fruit,3,purple_fruit,4,red_fruit,4,blue_fruit,7,epic_fruit,3,175-175-235-175-175,2000000,green_gem,1,red_stone,2,blue_fruit,3,epic_fruit,3,,,
 361,,1000000,purple_fruit,3,red_fruit,4,blue_fruit,7,yellow_fruit,4,epic_fruit,3,235-235-175-175-175,2000000,blue_gem,1,purple_stone,5,green_stone,5,,,,,
-362,,1000000,epic_fruit,3,,,,,,,,,,,,,,,,,,,,,
+362,,1000000,epic_fruit,3,,,,,,,,,100-100-235-175-175,,,,,,,,,,,,
 363,,,,,,,,,,,,,,,,,,,,,,,,,
 364,,,,,,,,,,,,,,,,,,,,,,,,,
 365,,,,,,,,,,,,,,,,,,,,,,,,,

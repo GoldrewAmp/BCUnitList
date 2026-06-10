@@ -1,7 +1,7 @@
 ID,Rarity,InEN,NF,EF,TF,UF,LevelCapFormat,OrbCount,Talents,UltraTalents
 800,UR,Y,Summon (Morta-Loncha),,,,Summon,0,,
-801,EX,Y,Master of Logic Newton,Master of Logic Mewton,,,,0,,
-802,EX,Y,Summon (Newton),,,,Summon,0,,
+801,EX,Y,Master of Logic Newtone,Master of Logic Mewton,,,,0,,
+802,EX,Y,Summon (Newtone),,,,Summon,0,,
 803,UR,Y,Sonic,Sonic & Cat,,,UR,0,,
 804,UR,Y,Tails,Tails & Cat,,,UR,0,,
 805,UR,Y,Knuckles,Knuckles & Cat,,,UR,0,,
@@ -60,3 +60,8 @@ ID,Rarity,InEN,NF,EF,TF,UF,LevelCapFormat,OrbCount,Talents,UltraTalents
 858,EX,N,Commander Cat,Gold Cat,,,,0,,
 859,UR,Y,Lone Moon Lunos,Lunos the Eclipsed,,,UR,0,,
 860,UR,Y,Summon (Moon Lunos),,,,Summon,0,,
+861,UR,Y,Vornado,Tempest King Vornado,,,UR,0,,
+862,UR,Y,Hanzo the Betrothed,Hanzo the Groom,,,UR,0,,
+863,EX,Y,The Invisible Cat,Groom Cat,,,Plus10,0,,
+864,UR,N,Shirou Emiya,Shirou Emiya CC,,,UR,0,,
+865,UR,N,True Assassin,True Assassin CC,,,UR,0,,

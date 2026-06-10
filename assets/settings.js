@@ -1,7 +1,7 @@
 const SETTINGS = {
-    "version": "2.1.0",
-    "gameVersion": "15.3",
-    "unitCount": 860,
+    "version": "2.1.2",
+    "gameVersion": "15.4",
+    "unitCount": 865,
     "skipImages": [339, 729, 732, 734, 739, 755, 761, 764, 770, 775, 782, 800, 802, 812, 816, 818, 821, 825, 838, 839, 855, 860],
     "maxLoadoutNameLength": 64,
     "chapters": {

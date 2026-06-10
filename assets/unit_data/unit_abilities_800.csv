@@ -110,3 +110,13 @@ ID,Form,Cost,Health,Damage,Range,KBCount,Speed,Cooldown,HasArea,Traits,Abilities
 859,0,4050,5400,1400,250,2,11,18.67,T,Alien-Floating-Traitless-Zombie,Conjure-Curse_Immune-Explosion_Immune-Freeze_Immune-Knockback-Knockback_Immune-Omnistrike-Resistant-Toxic_Immune-Warp_Immune-Zombie_Killer
 859,1,4050,5400,1900,250,2,11,18.67,T,Alien-Floating-Traitless-Zombie,Conjure-Curse_Immune-Explosion_Immune-Freeze_Immune-Knockback-Knockback_Immune-Omnistrike-Resistant-Strengthen-Toxic_Immune-Warp_Immune-Zombie_Killer
 860,0,0,0,2250,800,1,0,0,T,All,Dodge-Kamikaze-Money_Up-Shockwave_Immune-Wave-Zombie_Killer
+861,0,5550,5000,1850,455,4,14,153.33,T,Aku-Red,Long_Distance-Massive_Damage-Slow-Surge_Immune
+861,1,5550,6000,2250,455,4,14,153.33,T,Aku-Red,Long_Distance-Massive_Damage-Slow-Surge_Immune
+862,0,4950,2800,700,450,4,9,153.33,T,Red-Zombie,Freeze_Immune-Massive_Damage-Slow-Toxic_Immune-Zombie_Killer
+862,1,4950,3300,950,450,4,9,153.33,T,Red-Zombie,Freeze_Immune-Massive_Damage-Slow-Toxic_Immune-Zombie_Killer
+863,0,720,620,360,300,3,12,20,T,Angel-Zombie,Massive_Damage-Zombie_Killer
+863,1,720,780,450,300,3,12,20,T,Angel-Zombie,Massive_Damage-Zombie_Killer
+864,0,4800,3200,4800,560,3,12,180,T,All,Freeze_Immune-Knockback_Immune-Multi_Hit-Wave
+864,1,4800,4000,6000,560,3,12,180,T,All,Freeze_Immune-Knockback_Immune-Multi_Hit-Wave
+865,0,3750,1360,480,500,5,40,96.67,T,Alien-Floating,Barrier_Breaker-Dodge-Freeze-Long_Distance-Toxic_Immune-Weaken
+865,1,3750,1700,600,500,5,40,96.67,T,Alien-Floating,Barrier_Breaker-Dodge-Freeze-Long_Distance-Toxic_Immune-Weaken
