@@ -91,6 +91,13 @@ td.head-option, td.row-option {
 }
 .unit-table-list thead td[class^="sort"] {
     cursor: pointer;
+    transition: background-color 0.1s ease;
+}
+.unit-table-list thead td[class^="sort"]:hover {
+    background-color: var(--rarity-border);
+}
+.legend-rare-color .unit-table-list thead td[class^="sort"]:hover {
+    background-color: var(--legend-rare-hover);
 }
 
 .unit-table-list tbody tr {
@@ -254,6 +261,10 @@ td.head-option, td.row-option {
 .orb-selector:not(#orb-result) {
     transform: scale(calc(40 / 87));
     transform-origin: 0 0;
+    transition: background-color 0.1s ease, filter 0.1s ease;
+}
+.orb-selector:not(#orb-result):hover {
+    filter: invert(0.1) brightness(0.9);
 }
 .orb-wrapper {
     width: 40px;
@@ -272,6 +283,9 @@ td.head-option, td.row-option {
 }
 .searchable-table-title:hover {
     background-color: var(--rarity-border);
+}
+.legend-rare-color .searchable-table-title:hover {
+    background-color: var(--legend-rare-hover);
 }
 
 .open-table-option-wrapper {
@@ -318,6 +332,9 @@ td.head-option, td.row-option {
 }
 .stat-display-option:not(:disabled):hover {
     background-color: var(--rarity-content);
+}
+.legend-rare-color .stat-display-option:not(:disabled):hover {
+    background-color: var(--rarity-bg2);
 }
 
 .stat-display-option::after {

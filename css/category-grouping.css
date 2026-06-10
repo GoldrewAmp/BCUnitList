@@ -26,6 +26,7 @@
     margin-top: 2vh;
     border-radius: 16pt;
 }
+
 .super-category > div:nth-last-child(1 of :not(.hidden)) {
     padding-bottom: 3vh;
 }

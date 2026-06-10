@@ -1,7 +1,3 @@
-#loading-content {
-    height: max-content;
-}
-
 .catseye, .big-fruit, .big-rock, .s-rank {
     height: 48px;
 }
@@ -72,7 +68,15 @@
     right: 0;
     bottom: 0;
     z-index: 1;
+    transition: background-color 0.1s ease;
 }
+.table-title-collapser:hover {
+    background-color: var(--rarity-border);
+}
+.legend-rare-color .table-title-collapser:hover {
+    background-color: var(--legend-rare-hover);
+}
+
 .table-title, .ut-uf-included, .included-label {
     z-index: 3;
 }

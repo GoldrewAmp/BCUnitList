@@ -174,7 +174,7 @@ function createChip(id) {
     
     const icon = document.createElement("img");
     icon.classList.add("unit-icon");
-    icon.src = `/assets/img/unit_icon/${id}_0.png`;
+    icon.src = `../../assets/img/unit_icon/${id}_0.png`;
 
     const removeUnit = document.createElement("div");
     removeUnit.classList.add("remove-unit");

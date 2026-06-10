@@ -3,6 +3,10 @@
     padding: 1vh 0;
     margin: 0;
     z-index: 5;
+    transition: background-color 0.1s ease;
+}
+.table-title-collapser:hover {
+    background-color: var(--rarity-content);
 }
 
 table {

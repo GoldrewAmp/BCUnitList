@@ -109,6 +109,7 @@ function appendAllCategoryTables(loadingBar, categoryData) {
         superCategory.classList.add("super-category");
 
         const superCategoryName = document.createElement("h4");
+        superCategoryName.classList.add("clickable");
         const superName = parseSnakeCase(key);
         let hidden = false;
         superCategoryName.onclick = () => {

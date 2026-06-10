@@ -39,6 +39,7 @@
     --uber-rare-border: #c2af1f;
 
     --legend-rare-content: #ffffff;
+    --legend-rare-hover: #d3d3d3;
     --legend-rare-border: #141414;
     --rainbow-bg1: #ff9999;
     --rainbow-bg2: #ffe699;
@@ -202,7 +203,7 @@ button {
 button, .clickable {
     background-color: var(--rarity-content);
     cursor: pointer;
-    transition: background-color 0.04s ease, filter 0.04s ease;
+    transition: background-color 0.1s ease, filter 0.1s ease;
     font-weight: bolder;
     user-select: none;
 }
